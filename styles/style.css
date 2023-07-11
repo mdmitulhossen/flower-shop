@@ -1,10 +1,11 @@
 /* Common style */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.btn{
+
+.btn {
     background-color: #E55473;
     padding: 10px 20px;
     border: 0;
@@ -12,50 +13,55 @@
 }
 
 /* Navber related style */
-.navbar{
+.navbar {
     background-color: rgba(175, 172, 172, 0.545);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 0;
 }
-.logo{
+
+.logo {
     color: #272727;
     font-weight: 800;
     font-size: 35px;
 }
-.logo span{
+
+.logo span {
     color: #E55473;
 }
-.navbar ul{
-   list-style: none;
-   display: flex;
-   justify-content: space-around;
-   gap: 40px;
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
 }
-.navbar ul a{
-   text-decoration: none;
-   color: black;
-   font-weight: 600;
-   font-size: 20px;
+
+.navbar ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .navbar .NavSocialIcons i {
-   margin-right: 10px;
-   cursor: pointer;
-   font-weight: 600;
-   font-size: 20px;
-   color: #E55473;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    color: #E55473;
 }
 
-
-.header{
+/* header style */
+.header {
     height: 650px;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     padding: 0 100px 0 200px;
     justify-content: space-between;
 }
+
 .header div {
     height: 100%;
     display: flex;
@@ -63,17 +69,80 @@
     justify-content: center;
     width: 600px;
 }
-.header div h3{
-  font-size: 60px;
-  color: #272727;
+
+.header div h3 {
+    font-size: 60px;
+    color: #272727;
 }
-.header div p{
-  color: rgba(39, 39, 39, 0.60);
- margin: 15px 0;
+
+.header div p {
+    color: rgba(39, 39, 39, 0.60);
+    margin: 15px 0;
 }
-.header div .btn{
-  width: 150px;
-  color: white;
-  font-weight: 600;
-  font-size: 20px;
+
+.header div .btn {
+    width: 150px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.main-section-header{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* main section related style  */
+
+/* feature flower  */
+
+.main-section-header h3{
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    margin: 80px 0 10px 0;
+}
+.main-section-header p{
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 50px;
+}
+.featured-flower {
+    padding: 0 200px;
+}
+
+.featured-flower-content div{
+    width: 400px;
+    height: 535px;
+    text-align: center;
+}
+.featured-flower-content div a{
+   color: #272727;
+   font-weight: 700;
+   font-size: 20px;
+}
+.featured-flower-content div div{
+    width: 100%;
+    height: 480px;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 15px;
+}
+.featured-flower-content div div>img{
+    width: 80%;
+    height: 80%;
+}
+.featured-flower-content {
+    display: flex;
+    gap: 20px;
+}
+.pink{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.red{
+    background: rgba(5, 151, 160, 0.15);
+}
+.yellow{
+    background: rgba(71, 125, 17, 0.15);
 }
