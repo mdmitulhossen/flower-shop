@@ -13,6 +13,10 @@
     color: white;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #b8435c;
 }
 
 .main-section-header {
@@ -32,7 +36,8 @@
 
 /* Navber related style */
 .navbar {
-    background-color: rgba(175, 172, 172, 0.545);
+    /* background-color: rgba(175, 172, 172, 0.545); */
+    background-color: #272727;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,7 +45,7 @@
 }
 
 .logo {
-    color: #272727;
+    color: white;
     font-weight: 800;
     font-size: 35px;
 }
@@ -56,11 +61,15 @@
     gap: 40px;
 }
 
+
 .navbar ul a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 600;
     font-size: 20px;
+}
+.navbar ul li:hover a {
+    color: #E55473;
 }
 
 .navbar .NavSocialIcons i {
@@ -267,7 +276,6 @@ footer{
 }
 
 footer div .logo{
-    color: white;
     margin-bottom: 10px;
 }
 .footer-info{
