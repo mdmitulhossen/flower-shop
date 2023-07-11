@@ -233,7 +233,6 @@
 }
 .intagram-image-container{
     display: flex;
-    gap: 20px;
     margin-top: 30px;
     justify-content: space-between; 
 }
