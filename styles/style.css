@@ -135,9 +135,13 @@
 }
 
 .featured-flower-content div {
-    width: 400px;
+    width: 32%;
     height: 535px;
     text-align: center;
+}
+.featured-flower-content{
+    display: flex;
+    justify-content: space-between;
 }
 
 .featured-flower-content div a {
@@ -224,8 +228,8 @@
     margin-top: 100px;
 }
 .instagram img{
-    width: 250px;
-    height: 300px;
+    width: 24%;
+    height: 350px;
 }
 .intagram-image-container{
     display: flex;
